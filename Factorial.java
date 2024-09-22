@@ -11,7 +11,7 @@ public class Factorial
 
     public int recursivo(int n){
         //caso base
-        if(n<=2)
+        if(n==1)
             return n;
         // caso recursivo
         return n*recursivo(n-1);
